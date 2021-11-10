@@ -31,7 +31,8 @@
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" to="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Equipos</a>
          <ul id="dropdown" class="dropdown-menu" aria-labelledby="dropdown03">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><router-link class="dropdown-item" 
+             to="/departamentos">Departamentos</router-link></li>
             <li><a class="dropdown-item" href="#">Link</a></li>
             <li><a class="dropdown-item" href="#">Link</a></li>  
          </ul>
