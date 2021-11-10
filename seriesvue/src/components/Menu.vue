@@ -10,15 +10,15 @@
          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
          <li class="nav-item">
          <router-link class="nav-link active" aria-current="page" 
-         to="/coches">Home</router-link>
+         to="/">Home</router-link>
       </li>
    <li class="nav-item">
         <router-link class="nav-link" 
-        to="/empleadosdetalle">Nuevo Personaje</router-link>
+        to="/insertarpersonaje">Nuevo Personaje</router-link>
     </li>
      <li class="nav-item">
         <router-link class="nav-link" 
-        to="/empleadosoficio">Modificar Personaje</router-link>
+        to="/modificarpersonaje">Modificar Personaje</router-link>
     </li>
     
     <li class="nav-item dropdown">
